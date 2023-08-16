@@ -1,0 +1,103 @@
+body{
+background-color: #012A4A !important;
+overflow: hidden;
+}
+.usuario{
+display: flex;
+position: relative;
+align-items: flex-start;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+background-color: #EFEFD0;
+left: 50px;
+top: 20px;
+width: 70px;
+height: 70px;
+border: none;
+border-radius: 50%;
+transition: transform 0.3s ease;
+}
+
+.usuario:hover{
+transform: translateY(-10px); /* Subir 10px */
+}
+.livros{
+display: flex;
+position: relative;
+align-items: flex-start;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+background-color: #F1F1AB;
+left: 140px;
+top: -50px;
+width: 70px;
+height: 70px;
+border: none;
+border-radius: 50%;
+transition: transform 0.3s ease;
+}
+.livros:hover{
+transform: translateY(-10px); /* Subir 10px */
+}
+.resenhas{
+display: flex;
+position: relative;
+align-items: flex-start;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+background-color: #EDED73;
+left: 230px;
+top: -120px;
+width: 70px;
+height: 70px;
+border: none;
+border-radius: 50%;
+transition: transform 0.3s ease;
+}
+.resenhas:hover{
+transform: translateY(-10px); /* Subir 10px */
+}
+.sobre{
+display: flex;
+position: relative;
+align-items: flex-start;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+background-color: #EFEF1B;
+left: 320px;
+top: -190px;
+width: 70px;
+height: 70px;
+border: none;
+border-radius: 50%;
+transition: transform 0.3s ease;
+}
+.sobre:hover{
+transform: translateY(-10px); /* Subir 10px */
+}
+
+#logo{
+position: absolute;
+display: flex;
+top: -5px;
+left: 820px;
+width: 300px;
+height: 300px;
+}
+
+.logo3{
+position: relative;
+display: flex;
+top: -250px;
+left: 1568px;
+width: 250px;
+height:250px;
+}
